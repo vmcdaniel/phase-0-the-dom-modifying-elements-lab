@@ -4,4 +4,4 @@ mainElement.remove();
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory';
 newHeader.textContent = 'Victoria is the champion';
-append(document.mainElement, newHeader);
+append(document.body,newHeader);
